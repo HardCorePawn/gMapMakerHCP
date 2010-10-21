@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="googleMVlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="googleMVlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 22</value>
+  </data>
+  <data name="googleMVlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="googleMVlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="googleMVlabel.Text" xml:space="preserve">
+    <value>&amp;Cache folder</value>
+  </data>
+  <data name="&gt;&gt;googleMVlabel.Name" xml:space="preserve">
+    <value>googleMVlabel</value>
+  </data>
+  <data name="&gt;&gt;googleMVlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;googleMVlabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;googleMVlabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="generalToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>655, 17</value>
+  </metadata>
+  <data name="googleMVtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="googleMVtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 20</value>
+  </data>
+  <data name="googleMVtextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="googleMVtextBox.ToolTip" xml:space="preserve">
+    <value>Select the cache folder used to store Google
+Map tiles. (Choose GoogleMV folder if
+you want to use its cache.)</value>
+  </data>
+  <data name="&gt;&gt;googleMVtextBox.Name" xml:space="preserve">
+    <value>googleMVtextBox</value>
+  </data>
+  <data name="&gt;&gt;googleMVtextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;googleMVtextBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;googleMVtextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="imageFormatLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imageFormatLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="imageFormatLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="imageFormatLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="imageFormatLabel.Text" xml:space="preserve">
+    <value>Image format</value>
+  </data>
+  <data name="&gt;&gt;imageFormatLabel.Name" xml:space="preserve">
+    <value>imageFormatLabel</value>
+  </data>
+  <data name="&gt;&gt;imageFormatLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageFormatLabel.Parent" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;imageFormatLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imageFormatComboBox.Items" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="imageFormatComboBox.Items1" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="imageFormatComboBox.Items2" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="imageFormatComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 15</value>
+  </data>
+  <data name="imageFormatComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="imageFormatComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="imageFormatComboBox.ToolTip" xml:space="preserve">
+    <value>Image format</value>
+  </data>
+  <data name="&gt;&gt;imageFormatComboBox.Name" xml:space="preserve">
+    <value>imageFormatComboBox</value>
+  </data>
+  <data name="&gt;&gt;imageFormatComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageFormatComboBox.Parent" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;imageFormatComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grayscaleCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grayscaleCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="grayscaleCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="grayscaleCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grayscaleCheckBox.Text" xml:space="preserve">
+    <value>Grayscale</value>
+  </data>
+  <data name="grayscaleCheckBox.ToolTip" xml:space="preserve">
+    <value>Compute an 8bpp grayscale
+image instead of a 24bpp one</value>
+  </data>
+  <data name="&gt;&gt;grayscaleCheckBox.Name" xml:space="preserve">
+    <value>grayscaleCheckBox</value>
+  </data>
+  <data name="&gt;&gt;grayscaleCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grayscaleCheckBox.Parent" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;grayscaleCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="saveButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="saveButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 385</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="saveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>&amp;Go</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Name" xml:space="preserve">
+    <value>saveButton</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saveButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="folderBrowserDialog.Description" xml:space="preserve">
+    <value>Select the folder where cached image files will be saved...</value>
+  </data>
+  <data name="chooseFolderButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 17</value>
+  </data>
+  <data name="chooseFolderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="chooseFolderButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chooseFolderButton.Text" xml:space="preserve">
+    <value>&amp;Browse ...</value>
+  </data>
+  <data name="&gt;&gt;chooseFolderButton.Name" xml:space="preserve">
+    <value>chooseFolderButton</value>
+  </data>
+  <data name="&gt;&gt;chooseFolderButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chooseFolderButton.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;chooseFolderButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="topLeftLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="topLeftLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="topLeftLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="topLeftLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="topLeftLabel.Text" xml:space="preserve">
+    <value>Top-left corner (lat/long)</value>
+  </data>
+  <data name="&gt;&gt;topLeftLabel.Name" xml:space="preserve">
+    <value>topLeftLabel</value>
+  </data>
+  <data name="&gt;&gt;topLeftLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topLeftLabel.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;topLeftLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bottomRightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bottomRightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 48</value>
+  </data>
+  <data name="bottomRightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="bottomRightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bottomRightLabel.Text" xml:space="preserve">
+    <value>Bottom-right corner (lat/long)</value>
+  </data>
+  <data name="&gt;&gt;bottomRightLabel.Name" xml:space="preserve">
+    <value>bottomRightLabel</value>
+  </data>
+  <data name="&gt;&gt;bottomRightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bottomRightLabel.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;bottomRightLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="errorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>322, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>452, 416</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 385</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tilesPerFileComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tilesPerFileComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tilesPerFileComboBox.Error" xml:space="preserve">
+    <value>incorrect tiles per file</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items1" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items2" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items3" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items4" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="tilesPerFileComboBox.Items5" xml:space="preserve">
+    <value>256</value>
+  </data>
+  <data name="tilesPerFileComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 352</value>
+  </data>
+  <data name="tilesPerFileComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="tilesPerFileComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tilesPerFileComboBox.ToolTip" xml:space="preserve">
+    <value>Maximum number of tiles stored in a file.</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileComboBox.Name" xml:space="preserve">
+    <value>tilesPerFileComboBox</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tilesPerFileLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tilesPerFileLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tilesPerFileLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 355</value>
+  </data>
+  <data name="tilesPerFileLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="tilesPerFileLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tilesPerFileLabel.Text" xml:space="preserve">
+    <value>&amp;Tiles per file</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileLabel.Name" xml:space="preserve">
+    <value>tilesPerFileLabel</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tilesPerFileLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="hashSizeComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="hashSizeComboBox.Error" xml:space="preserve">
+    <value>incorrect hash size</value>
+  </data>
+  <data name="hashSizeComboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hashSizeComboBox.Items1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="hashSizeComboBox.Items2" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="hashSizeComboBox.Items3" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="hashSizeComboBox.Items4" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="hashSizeComboBox.Items5" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="hashSizeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 352</value>
+  </data>
+  <data name="hashSizeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="hashSizeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="hashSizeComboBox.ToolTip" xml:space="preserve">
+    <value>Use a larger hash size to distribute files into more folders. Set Hash size = 1 to enable Tiles per file.</value>
+  </data>
+  <data name="&gt;&gt;hashSizeComboBox.Name" xml:space="preserve">
+    <value>hashSizeComboBox</value>
+  </data>
+  <data name="&gt;&gt;hashSizeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hashSizeComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hashSizeComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="hashSizeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="hashSizeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hashSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 355</value>
+  </data>
+  <data name="hashSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="hashSizeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="hashSizeLabel.Text" xml:space="preserve">
+    <value>&amp;Hash size</value>
+  </data>
+  <data name="&gt;&gt;hashSizeLabel.Name" xml:space="preserve">
+    <value>hashSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;hashSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hashSizeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hashSizeLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="slicingComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="slicingComboBox.Items" xml:space="preserve">
+    <value>1 slice</value>
+  </data>
+  <data name="slicingComboBox.Items1" xml:space="preserve">
+    <value>4 slices</value>
+  </data>
+  <data name="slicingComboBox.Items2" xml:space="preserve">
+    <value>9 slices</value>
+  </data>
+  <data name="slicingComboBox.Items3" xml:space="preserve">
+    <value>16 slices</value>
+  </data>
+  <data name="slicingComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 325</value>
+  </data>
+  <data name="slicingComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="slicingComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="slicingComboBox.ToolTip" xml:space="preserve">
+    <value>Split image/map in
+multiple slices
+(enables very big maps)</value>
+  </data>
+  <data name="&gt;&gt;slicingComboBox.Name" xml:space="preserve">
+    <value>slicingComboBox</value>
+  </data>
+  <data name="&gt;&gt;slicingComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slicingComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;slicingComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="selectMapArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 32</value>
+  </data>
+  <data name="selectMapArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="selectMapArea.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="selectMapArea.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="selectMapArea.ToolTip" xml:space="preserve">
+    <value>Open a map to selecting
+the area for downloading</value>
+  </data>
+  <data name="&gt;&gt;selectMapArea.Name" xml:space="preserve">
+    <value>selectMapArea</value>
+  </data>
+  <data name="&gt;&gt;selectMapArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectMapArea.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;selectMapArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 74</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Map type</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="transpLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="transpLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="transpLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 74</value>
+  </data>
+  <data name="transpLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="transpLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="transpLabel.Text" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="&gt;&gt;transpLabel.Name" xml:space="preserve">
+    <value>transpLabel</value>
+  </data>
+  <data name="&gt;&gt;transpLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;transpLabel.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;transpLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="transpComboBox.Items" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="transpComboBox.Items1" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="transpComboBox.Items2" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="transpComboBox.Items3" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="transpComboBox.Items4" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="transpComboBox.Items5" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="transpComboBox.Items6" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="transpComboBox.Items7" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="transpComboBox.Items8" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="transpComboBox.Items9" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="transpComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 71</value>
+  </data>
+  <data name="transpComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="transpComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="transpComboBox.ToolTip" xml:space="preserve">
+    <value>Driving map layer opacity</value>
+  </data>
+  <data name="&gt;&gt;transpComboBox.Name" xml:space="preserve">
+    <value>transpComboBox</value>
+  </data>
+  <data name="&gt;&gt;transpComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;transpComboBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;transpComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="brLongTextBox.Error" xml:space="preserve">
+    <value>incorrect longitude</value>
+  </data>
+  <data name="brLongTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="brLongTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 45</value>
+  </data>
+  <data name="brLongTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="brLongTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="brLongTextBox.ToolTip" xml:space="preserve">
+    <value>Enter longitude (WGS84)...
+-34.56
+34.56 W
+72°2.87' E
+72°2'52'' E
+Max: ±179.9999</value>
+  </data>
+  <data name="&gt;&gt;brLongTextBox.Name" xml:space="preserve">
+    <value>brLongTextBox</value>
+  </data>
+  <data name="&gt;&gt;brLongTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;brLongTextBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;brLongTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="brLatTextBox.Error" xml:space="preserve">
+    <value>incorrect latitude</value>
+  </data>
+  <data name="brLatTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="brLatTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 45</value>
+  </data>
+  <data name="brLatTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="brLatTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="brLatTextBox.ToolTip" xml:space="preserve">
+    <value>Enter latitude (WGS84)...
+-34.56
+34.56 S
+72°2.87' N
+72°2'52'' N
+Max: ±85.0511</value>
+  </data>
+  <data name="&gt;&gt;brLatTextBox.Name" xml:space="preserve">
+    <value>brLatTextBox</value>
+  </data>
+  <data name="&gt;&gt;brLatTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;brLatTextBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;brLatTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tlLongTextBox.Error" xml:space="preserve">
+    <value>incorrect longitude</value>
+  </data>
+  <data name="tlLongTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tlLongTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 19</value>
+  </data>
+  <data name="tlLongTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="tlLongTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlLongTextBox.ToolTip" xml:space="preserve">
+    <value>Enter longitude (WGS84)...
+-34.56
+34.56 W
+72°2.87' E
+72°2'52'' E
+Max: ±179.9999</value>
+  </data>
+  <data name="&gt;&gt;tlLongTextBox.Name" xml:space="preserve">
+    <value>tlLongTextBox</value>
+  </data>
+  <data name="&gt;&gt;tlLongTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlLongTextBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tlLongTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="zoomLevelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zoomLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 74</value>
+  </data>
+  <data name="zoomLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="zoomLevelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="zoomLevelLabel.Text" xml:space="preserve">
+    <value>Zoom level</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelLabel.Name" xml:space="preserve">
+    <value>zoomLevelLabel</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelLabel.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tileTypeComboBox.Items" xml:space="preserve">
+    <value>Google Maps</value>
+  </data>
+  <data name="tileTypeComboBox.Items1" xml:space="preserve">
+    <value>Google Satellite</value>
+  </data>
+  <data name="tileTypeComboBox.Items2" xml:space="preserve">
+    <value>Google Hybrid</value>
+  </data>
+  <data name="tileTypeComboBox.Items3" xml:space="preserve">
+    <value>Google Terrain</value>
+  </data>
+  <data name="tileTypeComboBox.Items4" xml:space="preserve">
+    <value>Google China</value>
+  </data>
+  <data name="tileTypeComboBox.Items5" xml:space="preserve">
+    <value>MSN Maps</value>
+  </data>
+  <data name="tileTypeComboBox.Items6" xml:space="preserve">
+    <value>MSN Satellite</value>
+  </data>
+  <data name="tileTypeComboBox.Items7" xml:space="preserve">
+    <value>MSN Hybrid</value>
+  </data>
+  <data name="tileTypeComboBox.Items8" xml:space="preserve">
+    <value>MSN Terrain</value>
+  </data>
+  <data name="tileTypeComboBox.Items9" xml:space="preserve">
+    <value>MSN Brazil Maps</value>
+  </data>
+  <data name="tileTypeComboBox.Items10" xml:space="preserve">
+    <value>Yahoo Maps</value>
+  </data>
+  <data name="tileTypeComboBox.Items11" xml:space="preserve">
+    <value>Yahoo Satellite</value>
+  </data>
+  <data name="tileTypeComboBox.Items12" xml:space="preserve">
+    <value>Yahoo Hybrid</value>
+  </data>
+  <data name="tileTypeComboBox.Items13" xml:space="preserve">
+    <value>Yahoo India Maps</value>
+  </data>
+  <data name="tileTypeComboBox.Items14" xml:space="preserve">
+    <value>Yahoo India Hybrid</value>
+  </data>
+  <data name="tileTypeComboBox.Items15" xml:space="preserve">
+    <value>OpenStreetMap</value>
+  </data>
+  <data name="tileTypeComboBox.Items16" xml:space="preserve">
+    <value>OSMARender</value>
+  </data>
+  <data name="tileTypeComboBox.Items17" xml:space="preserve">
+    <value>OpenAerialMap</value>
+  </data>
+  <data name="tileTypeComboBox.Items18" xml:space="preserve">
+    <value>OpenCycleMap</value>
+  </data>
+  <data name="tileTypeComboBox.Items19" xml:space="preserve">
+    <value>BrutMap</value>
+  </data>
+  <data name="tileTypeComboBox.Items20" xml:space="preserve">
+    <value>BrutMapAndNav</value>
+  </data>
+  <data name="tileTypeComboBox.Items21" xml:space="preserve">
+    <value>BrutMapSat</value>
+  </data>
+  <data name="tileTypeComboBox.Items22" xml:space="preserve">
+    <value>BrutMapAndNavSat</value>
+  </data>
+  <data name="tileTypeComboBox.Items23" xml:space="preserve">
+    <value>BrutMapHyb</value>
+  </data>
+  <data name="tileTypeComboBox.Items24" xml:space="preserve">
+    <value>BrutMapAndNavHyb</value>
+  </data>
+  <data name="tileTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 71</value>
+  </data>
+  <data name="tileTypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="tileTypeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <metadata name="generalToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>655, 17</value>
+  </metadata>
+  <data name="tileTypeComboBox.ToolTip" xml:space="preserve">
+    <value>Map type</value>
+  </data>
+  <data name="&gt;&gt;tileTypeComboBox.Name" xml:space="preserve">
+    <value>tileTypeComboBox</value>
+  </data>
+  <data name="&gt;&gt;tileTypeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tileTypeComboBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tileTypeComboBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="zoomLevelComboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="zoomLevelComboBox.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="zoomLevelComboBox.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="zoomLevelComboBox.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="zoomLevelComboBox.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="zoomLevelComboBox.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="zoomLevelComboBox.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="zoomLevelComboBox.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="zoomLevelComboBox.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="zoomLevelComboBox.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="zoomLevelComboBox.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="zoomLevelComboBox.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="zoomLevelComboBox.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="zoomLevelComboBox.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="zoomLevelComboBox.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="zoomLevelComboBox.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="zoomLevelComboBox.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="zoomLevelComboBox.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="zoomLevelComboBox.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="zoomLevelComboBox.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="zoomLevelComboBox.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="zoomLevelComboBox.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="zoomLevelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="zoomLevelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
+  </data>
+  <data name="zoomLevelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="zoomLevelComboBox.ToolTip" xml:space="preserve">
+    <value>Google Map zoom level</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelComboBox.Name" xml:space="preserve">
+    <value>zoomLevelComboBox</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelComboBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;zoomLevelComboBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ggZoneGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 161</value>
+  </data>
+  <data name="ggZoneGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 100</value>
+  </data>
+  <data name="ggZoneGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ggZoneGroupBox.Text" xml:space="preserve">
+    <value>Map Area</value>
+  </data>
+  <data name="&gt;&gt;ggZoneGroupBox.Name" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ggZoneGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ggZoneGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ggZoneGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Name" xml:space="preserve">
+    <value>ditherCheckBox</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Parent" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="imageGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 267</value>
+  </data>
+  <data name="imageGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 48</value>
+  </data>
+  <data name="imageGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="imageGroupBox.Text" xml:space="preserve">
+    <value>Merged Image</value>
+  </data>
+  <data name="&gt;&gt;imageGroupBox.Name" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;imageGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;imageGroupBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Name" xml:space="preserve">
+    <value>proxyListRegexpTextBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Name" xml:space="preserve">
+    <value>proxyListRegexpLabel</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Name" xml:space="preserve">
+    <value>groupByZoomCheckBox</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Name" xml:space="preserve">
+    <value>maxParallDnldsComboBox</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Name" xml:space="preserve">
+    <value>proxyListUrlsTextBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Name" xml:space="preserve">
+    <value>proxyListUrlLabel</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Name" xml:space="preserve">
+    <value>delayLabel</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Name" xml:space="preserve">
+    <value>delayNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Name" xml:space="preserve">
+    <value>waitRequestsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Name" xml:space="preserve">
+    <value>proxyUseCheckBox</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="networkGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="networkGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 150</value>
+  </data>
+  <data name="networkGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="networkGroupBox.Text" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="&gt;&gt;networkGroupBox.Name" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;networkGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;networkGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;networkGroupBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="operatingModeComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="operatingModeComboBox.Items" xml:space="preserve">
+    <value>OziExplorer mode, download tiles</value>
+  </data>
+  <data name="operatingModeComboBox.Items1" xml:space="preserve">
+    <value>OziExplorer mode, download and build merged image</value>
+  </data>
+  <data name="operatingModeComboBox.Items2" xml:space="preserve">
+    <value>OziExplorer mode, build image &amp; map calibration file</value>
+  </data>
+  <data name="operatingModeComboBox.Items3" xml:space="preserve">
+    <value>MGMaps mode, download tiles using entered area</value>
+  </data>
+  <data name="operatingModeComboBox.Items4" xml:space="preserve">
+    <value>MGMaps mode, download tiles using a .map file</value>
+  </data>
+  <data name="operatingModeComboBox.Items5" xml:space="preserve">
+    <value>BrutMaps mode, download tiles using a .map file</value>
+  </data>
+  <data name="operatingModeComboBox.Items6" xml:space="preserve">
+    <value>BrutMapsAndNav mode, download tiles using a .map file</value>
+  </data>
+  <data name="operatingModeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 325</value>
+  </data>
+  <data name="operatingModeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 21</value>
+  </data>
+  <data name="operatingModeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="operatingModeComboBox.ToolTip" xml:space="preserve">
+    <value>Operating mode when
+you click "Go..." button</value>
+  </data>
+  <data name="&gt;&gt;operatingModeComboBox.Name" xml:space="preserve">
+    <value>operatingModeComboBox</value>
+  </data>
+  <data name="&gt;&gt;operatingModeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;operatingModeComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;operatingModeComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="operatingModeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="operatingModeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="operatingModeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 328</value>
+  </data>
+  <data name="operatingModeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="operatingModeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="operatingModeLabel.Text" xml:space="preserve">
+    <value>&amp;Operating mode</value>
+  </data>
+  <data name="&gt;&gt;operatingModeLabel.Name" xml:space="preserve">
+    <value>operatingModeLabel</value>
+  </data>
+  <data name="&gt;&gt;operatingModeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;operatingModeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;operatingModeLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="statusLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="statusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.75pt</value>
+  </data>
+  <data name="statusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 385</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 23</value>
+  </data>
+  <data name="statusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusLabel.Text" xml:space="preserve">
+    <value>Image: {0}x{1} ({2}Mpix{4})
+Memory needed: {3}MB</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Name" xml:space="preserve">
+    <value>statusLabel</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="aboutButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="aboutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 385</value>
+  </data>
+  <data name="aboutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="aboutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="aboutButton.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Name" xml:space="preserve">
+    <value>aboutButton</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af39/QPy8fEn0cHBZcWopoXCpqKJx7e2dePj
+        40H7+/sP////Af///wH///8B////Af///wH///8B////Aff19RnGmZSho41g9XusT/9/xmP/ecRd/6a4
+        d//FkXz3pnxyv+Df30f9/f0F////Af///wH///8B////AfDq6ifKjH7f+uvf/+jv1v/z7Nf//u/h//3w
+        4v//9ez///n0//np3v+xdl/r0c3NX/39/QX///8B////Afr5+RPHjXnd7ebH///hwv//3Lj//9mx///Y
+        r///2bL//926///jxf//69f//vPo/7F3Xevh4OBF////Af///wHYqKOTjK9h//XUqP//zpv//8mR///G
+        i///xor//8aM///Llf//0J//69Gi//zixP/w3cL/qIByv/z8/A/6+fkVtI5p7zJ8GP/XuXj//b57//+6
+        cv//uG3//7ds//S2a/9QhSb/wq1k/+zCg/+9tnb/PoQl/8KOavfj4+NB6NLSTXmBPv8yaxL/LWkQ/8yj
+        Uf//r1z//65Z//+uWf+ulT//LmoR/0t0HP/ismj/v6dg/3mOQP/YsYH/xrm1dd6xsG1jdi//M1sN/zFa
+        DP9hbh7//69a//+vW///sl//kYIy/zFaDP8wWgz/a3Ml/+qyZv+fkU3/8cWS/8CpoIndsK1vbG4t/y5I
+        B/9fYhr/76xb//+0Zv/bpVr/mH84/01XE/8ySQf/M0oI/zdNCf9zaiP/pIhC/6SPU//Fr6WF59DPT6p/
+        RP/Xm0v//7Nh//+3bP/3w4f/b3FH/2pySv9sckr/YWc9/0lPIf9LRg3/Oj0G/y01Av+iekT/0cTAZ/v4
+        +Be+hFrzm3ww///Jj///4sT//erU/9DNuP+ps5r/qrSa/7a7o/+ttp7/maOG/09hM/8lPwP/w4VX9fLx
+        8Sf///8B3qqgmY6cXf/g4cr/++za///x4///9+3/1+DO/8vYwf/A0bf/ytW8/7XLsP+4zrX/gY1H/9Ck
+        lKP9/f0D////Afv4+BXPkXLhxNWw/83hzP/l7N3/8fTs/+bw5f/H3sf/yd/J/8feyP/J4Mv/sMSU/8eM
+        ZOH39vUZ////Af///wH///8B9OrqJdmbgd/q5sz/5O/k/+zz6//y9vD/5e/k/+Dt4P/i7+P/7du4/9aV
+        cN3w6ukp////Af///wH///8B////Af///wH7+PgV3K2il+GynPPz3dD/+PPq//vy6P/z2cb/4KyM8dqu
+        npX5+PgV////Af///wH///8B////Af///wH///8B////Af///wH7+PgX6dHPT92zqW/dtatt6dTQTfr5
+        +RX///8B////Af///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH9/f0F/Pz8E/j4
+        +CX09PQz8fHxOe/v7z3w8PA78/PzNff39yn7+/sZ/f39B////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH9/f0H9/f3KdjV
+        1We0np6doHV0vZplYM2YXVfVmF1X1ZVfWdGWbmrDn4eGr7e1tYne3t5b9vb2Lf39/Q3///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B9/f3KcK3
+        t4ehXlvTtU47/7N4Tf+tn1//ordk/5rBZP+cwmb/l7BW/5qTRv+ocjr/pkwv+4ZOQN2XiYmtzs7Ob/b2
+        9i39/f0H////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B/f39BePf
+        31mdV1PRxWRR/8a7iP930Wb/V9JW/zjIO/9Z0Fz/aNNr/0jISv9s13H/keeX/8b2yP/98+b/772h/7hY
+        N/9/RjvfqKWll+jo6Ev9/f0N////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af39
+        /QnKubmFq0Ax+e29qP////r/8f/w/7Thq//h7dT/7u/b//306///9/P/+fPn///59///+/z///7/////
+        //////////3z/+itjv+aQCH3inh4ud/f31n8/PwR////Af///wH///8B////Af///wH///8B////Af//
+        /wH9/f0Fx7Ozi7tPPf/769T////2///y5f//79///+/h///r2f//69b//+nT///p0///6tb//+vW///s
+        2f//79////Ll///37v///Pn///////jXwP+qSiX9inh4ud/f31n9/f0N////Af///wH///8B////Af//
+        /wH///8B/f39A9LBwX3GWkr///HY///15f//6NH//+XK///ixf//4MD//969///eu///3br//926///e
+        u///377//+HC///jx///5s3//+vT///u3P//8+j///////7m0P+qSyT9inl4uenp6Un9/f0H////Af//
+        /wH///8B////Af///wHu6upHvU1F9crRmP+40Zf//+TJ///eu///27X//9iw///Wq///1Kj//9Sm///T
+        pf//1Kb//9Sn///Vqf//163//9my///cuP//4L///+TH///o0v//7dz///32//jWuP+bRCL3qKWll/f3
+        9yv///8B////Af///wH///8B/f39D7FhX9Hfu5P/ZrBP/9jPnv//2rX//9So///Rof//zpz//8yY///K
+        lf//ypP//8qT///Kk///ypT//8yW///Nmf//z57//9Kk///Wq///2rP//d+9///kyP//6dL////1/+6x
+        jv+ASTvf0NDQbf39/Q3///8B////Af///wHd0NBt2XVj/3axWP94o0z//9uz///Pnf//y5b//8mQ///G
+        i///xIf//8OE///Cgv//woH//8KB///Cgv//w4b//8eL///Mk///zJX//86a///TpP+zuHX/9dav///n
+        yv/m3r7/7ujI/8BiOP+XiYmt9/f3K////wH///8B/f39C79ycMfNuYX/KoEW/1GKLf/yyZL//8yT///E
+        hv//wID//757//+9d///u3X//7tz//+6c///u3P//7t0//29d/+CmD//dZY7/+K7d///yI3//8yW/7qz
+        bf/cxY7/tbp9/0CFI/9splT/+L6Z/4hVQt3e3t5b/f39B////wHx7e1Bz21f93mjUP8lcg3/KHUR/4eW
+        RP/lu3f/+bt1//+6cv//uG3//7Zq//+1Z///tWb//7Rl//+0Zf//t2r/1apZ/yx2E/8ecQ3/YYct/8ar
+        X///xYX/+cSH//rLlP9rjzn/H3AJ/y13Ff/Zz6D/tVw3+7e1tYn7+/sZ////Ady+voHMi2j/P34i/zBu
+        E/8ybxT/Lm0R/zVwFP+6nk3//7hr//+yYf//sF///7Bd//+wXP//r1z//69c//6zYP9xgyr/KGwR/zFv
+        FP88chf/g4w2/+y1bf//w4D//8eM/2yHNf8iaAr/NHAU/6y5ff/diV//nImGr/f39yn///8BzJOTra+S
+        Xv8saxD/M2kS/zNoEv8yZxH/ImIL/3iAK///tmP//69b//+tWP//rVf//61X//+tV///rlj/+61X/1By
+        G/8tZhD/M2gS/y9mD/9AbBf/oZJC//++dP/8vHn/l5RH/7WlX//ZvYP/9Nyu/+ame/+ScGbF8/PzNf//
+        /wHAbWvRoJRY/yleCv8zXw7/M18O/zNfDv8zXw7/J1sK/4V+LP//r1n//61Y//+uWP//rln//65Z//+w
+        W//yq1b/TGgX/y1dDP8zXw7/M18O/yhbCv81YA//46pb//++c//IpFv/1q5t/9azeP//2aj/+MCT/5Fm
+        VNHw8PA7////Ab9fWeGbklT/KVQG/zNYDf8zWA3/M1gN/y5VCv83WAz/o4k3//+xXP//sF3//7Be//+y
+        YP//tGL//7hn/9ShUP81Vwz/MVcM/zNYDf8zWA3/NFgN/ylTCP9scCT/9rVl/+2xZ/9wdiz/YW8m/9Ky
+        d//9ypn/lGZS1e/v7z3///8Bvl5Y45eLTv8nSgL/NFAL/y9NCf8kRwP/LEoG/8KVRP//uGT//7Jg//+y
+        Yv//t2j//7hq/+2sX//0uGr/o4c9/yZJBP8yTwr/M08K/zNPCv8zTwr/NE8K/yJHAv9saSH/i3kx/9Ch
+        Wf/PpV7/kodF/+i7hv+XaFXV8PDwO////wG+ambVw5tf/zJIBf8jPQH/NEYH/3BmH/+/kkP//rJg//+0
+        Zf//tWj//7pv//a6cP94bCn/N0gI/0lREf9ATAz/LkIC/zFEBP8yRQX/M0YH/zNGB/8tQwT/WlsW/0NP
+        DP+TejH/aWMf/4p3NP9FVBP/1KZx/5xyYM309PQz////AceLi7PurXT/eGgj/41wKv/Zm0r//7Ne//+3
+        Zf//tGX//7Vo//+4bf/6vHT/gm8y/yc6Bf83RQ7/N0YQ/zpHEP8+SBD/OEIJ/zA7BP8tOAD/KjYA/zM9
+        Av93Yx//O0IG/1RREv9ARQn/HDAA/0pRGP/enGn/oYB0vfj4+Cf///8B3bq6hdKJX/9xXxz/+q9a//+1
+        X///sl///7Ji//+1aP//v3z//9Gd/+fIof+DiGv/k5Z7/5ydhP+eoIb/nZ+G/5ucgv+UlXn/ioxu/3h5
+        V/9WWC//TEYS/zg1Af8tMQD/LjIA/zE0AP8oLAD/gHA2/+GNWv+xnpmh/Pz8Ff///wH06elJy3BX/5eB
+        Ov+ZdSv/2JpL//+1Yf//vHf//9Kl///jxf//6dH/+ebQ/8TBq/+jqpL/pauT/6eslP+lq5P/pqyT/6at
+        lf+mrpf/qbCa/6uwmf+foYX/ZW5H/zE+Cv8kMwD/LDkA/x8xAP+1l1r/yWk8/9nV1Wf9/f0F////Af39
+        /Q3GeHTL1Kpp/2xnGv+RfTD//9Ca///mzP//6dP//+rT///r1v//7tv///Hg/9zZxf+wvKP/q7mf/7C9
+        ov+vvKL/wcat/83Mtf+3wKb/rLqg/668o/+1wqr/nq6Q/0pnMv8RPgD/OlYO/++wdv+ja1bX9/f3Kf//
+        /wH///8B////AePFxXneiWf/an8r/2iTZP/x5tD//+zW///s1///7dr//+/e///w4f//8+b///nv/+Xm
+        1v+vxKj/2t7L/+Lhz//E0Lf/0Ne+/+Hexv++y7D/sMWq/7LFqv+3yrL/ucux/zlwNP+GjT//4H9R/8O2
+        tYn9/f0J////Af///wH///8B/f39D7tfXNnZrGv/jbJ6/7/Xwf/U3MP/7+jV///y4///8+f///Tp///3
+        7f//+fL//vrz/83cx/+40bX/u9K4/7fQtf+1z7T/wtW7/8nYv/+40bb/utK3/7zTuf+10rr/ZpRH/+Cj
+        Zf+oa1fT9/f3K////wH///8B////Af///wH///8B8+fnTcRcSP/OwHb/p8ym/7/dx//C28L/3ObS/+7u
+        4P/+9+7///r0///8+f////7/2+nZ/7/av//C28L/w9zD/8Pcw//B28L/wNrC/8Pcw//D3MP/x+HO/3yy
+        eP/ArWH/w2A8++Le3lv///8B////Af///wH///8B////Af///wH///8B3729gc5zVf/gzo3/y+DI/8zk
+        0v/K4cv/zeLO/93q2f/e69z/6vHo/+z06//U5tT/zeLO/8/jz//P48//z+PP/8/jz//P48//z+PO/8/n
+        2f+1zKL/yLRp/9FrQv/LureH/f39B////wH///8B////Af///wH///8B////Af///wH9/f0D2bCvj890
+        V//53aj/5e3X/9ns4f/Z6tr/1+fX/+Ds3//m8OX/7fTs/+bw5f/Z6Nn/2una/9rp2v/a6tr/2ura/9nq
+        3f/b7eP/6uK///HDgv/UcEX/ybSwjf39/Qv///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B4L+/f79eR/v1yZ3/9/be//D37//x9/L/9vj0//b49P/8/Pr/+fn2//X58//s8+r/6PHn/+bx
+        6P/o8+3/7/Xp//7nwv/0t3//wWNA9dPCv3/9/f0F////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B9OjoS7pkXNXXjWv//N++////9P//////+v////X//P/8////////////
+        ///9/////f/4///13f/8zaH/2X5T/7dxX9Hs5+dN////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B/f39D+THx3fDeG3LyXZY/+Opi//w0Lr/9+PS//vr
+        3P/76tn/9uDK/+/Iq//joXn/y3RM+75+bcfe0M5v/Pz8Ef///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af39/Q316upH37y5hcyR
+        ibG+bl3VvWVO47xnUeG+cmLRzZeMrd7Au4Px7exD/f39C////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 5, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>gMapMaker</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveImageFileDialog.Name" xml:space="preserve">
+    <value>saveImageFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveImageFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProvider.Name" xml:space="preserve">
+    <value>errorProvider</value>
+  </data>
+  <data name="&gt;&gt;errorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;generalToolTip.Name" xml:space="preserve">
+    <value>generalToolTip</value>
+  </data>
+  <data name="&gt;&gt;generalToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlLatTextBox.Error" xml:space="preserve">
+    <value>incorrect latitude</value>
+  </data>
+  <data name="tlLatTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tlLatTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="tlLatTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="tlLatTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlLatTextBox.ToolTip" xml:space="preserve">
+    <value>Enter latitude (WGS84)...
+-34.56
+34.56 S
+72°2.87' N
+72°2'52'' N
+Max: ±85.0511</value>
+  </data>
+  <data name="&gt;&gt;tlLatTextBox.Name" xml:space="preserve">
+    <value>tlLatTextBox</value>
+  </data>
+  <data name="&gt;&gt;tlLatTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlLatTextBox.Parent" xml:space="preserve">
+    <value>ggZoneGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tlLatTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="saveImageFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>168, 17</value>
+  </metadata>
+  <data name="saveImageFileDialog.Title" xml:space="preserve">
+    <value>Save image file to...</value>
+  </data>
+  <data name="ditherCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ditherCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 19</value>
+  </data>
+  <data name="ditherCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="ditherCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ditherCheckBox.Text" xml:space="preserve">
+    <value>Dither to 8bpp</value>
+  </data>
+  <data name="ditherCheckBox.ToolTip" xml:space="preserve">
+    <value>Compute an 8bpp color reduced
+image instead of a 24bpp one</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Name" xml:space="preserve">
+    <value>ditherCheckBox</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.Parent" xml:space="preserve">
+    <value>imageGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ditherCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="proxyListRegexpTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 124</value>
+  </data>
+  <data name="proxyListRegexpTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 20</value>
+  </data>
+  <data name="proxyListRegexpTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="proxyListRegexpTextBox.ToolTip" xml:space="preserve">
+    <value>Regular expression used when
+parsing a proxy list for IPs</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Name" xml:space="preserve">
+    <value>proxyListRegexpTextBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="proxyListRegexpLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proxyListRegexpLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 127</value>
+  </data>
+  <data name="proxyListRegexpLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="proxyListRegexpLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="proxyListRegexpLabel.Text" xml:space="preserve">
+    <value>Proxy List RegExp</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Name" xml:space="preserve">
+    <value>proxyListRegexpLabel</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListRegexpLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupByZoomCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupByZoomCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 49</value>
+  </data>
+  <data name="groupByZoomCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="groupByZoomCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupByZoomCheckBox.Text" xml:space="preserve">
+    <value>Group by zoom</value>
+  </data>
+  <data name="groupByZoomCheckBox.ToolTip" xml:space="preserve">
+    <value>Download tiles by grouping by zoom levels</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Name" xml:space="preserve">
+    <value>groupByZoomCheckBox</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;groupByZoomCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 50</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Max &amp;Parallel Downloads</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 45</value>
+  </data>
+  <data name="maxParallDnldsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="maxParallDnldsComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="maxParallDnldsComboBox.ToolTip" xml:space="preserve">
+    <value>Maximum number of download jobs in parallel</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Name" xml:space="preserve">
+    <value>maxParallDnldsComboBox</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxParallDnldsComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="proxyListUrlsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 98</value>
+  </data>
+  <data name="proxyListUrlsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 20</value>
+  </data>
+  <data name="proxyListUrlsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="proxyListUrlsTextBox.ToolTip" xml:space="preserve">
+    <value>URLs (separated by '|') of
+proxy lists used to download
+satellite images.</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Name" xml:space="preserve">
+    <value>proxyListUrlsTextBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlsTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="proxyListUrlLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proxyListUrlLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 101</value>
+  </data>
+  <data name="proxyListUrlLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="proxyListUrlLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="proxyListUrlLabel.Text" xml:space="preserve">
+    <value>Proxy List(s)</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Name" xml:space="preserve">
+    <value>proxyListUrlLabel</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyListUrlLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="delayLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="delayLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 74</value>
+  </data>
+  <data name="delayLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="delayLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="delayLabel.Text" xml:space="preserve">
+    <value>Delay (ms)</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Name" xml:space="preserve">
+    <value>delayLabel</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;delayLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="delayNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 72</value>
+  </data>
+  <data name="delayNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="delayNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="delayNumericUpDown.ToolTip" xml:space="preserve">
+    <value>Delay (in ms) between two requests</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Name" xml:space="preserve">
+    <value>delayNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;delayNumericUpDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="waitRequestsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="waitRequestsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 73</value>
+  </data>
+  <data name="waitRequestsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="waitRequestsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="waitRequestsCheckBox.Text" xml:space="preserve">
+    <value>Wait between requests</value>
+  </data>
+  <data name="waitRequestsCheckBox.ToolTip" xml:space="preserve">
+    <value>Wait between each request to avoid
+Google servers overload.</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Name" xml:space="preserve">
+    <value>waitRequestsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;waitRequestsCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="proxyUseCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proxyUseCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 73</value>
+  </data>
+  <data name="proxyUseCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="proxyUseCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="proxyUseCheckBox.Text" xml:space="preserve">
+    <value>Use Proxy &amp;Lists</value>
+  </data>
+  <data name="proxyUseCheckBox.ToolTip" xml:space="preserve">
+    <value>Use proxy servers to download
+the map or satellite tiles.</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Name" xml:space="preserve">
+    <value>proxyUseCheckBox</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.Parent" xml:space="preserve">
+    <value>networkGroupBox</value>
+  </data>
+  <data name="&gt;&gt;proxyUseCheckBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>780, 17</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Map Files (*.map)|*.map</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Choose one or more Map files</value>
+  </data>
+</root>
