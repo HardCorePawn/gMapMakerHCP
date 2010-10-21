@@ -1,0 +1,17 @@
+This is a Visual Studio 2008 project for the modified version of gMapMaker (http://www.mgmaps.com/cache/) to download tiles that will work with "Brut" GoogleMaps on AndroidOS.
+
+All credit for this tool goes to the original dev's... I just hacked it so that it will download the tiles in the right format... 
+
+GNU Public License etc etc...
+
+
+For instructions on how to use the actual application (and a link to a compiled binary for windows):
+
+http://forum.xda-developers.com/showthread.php?p=8598708#post8598708
+
+
+cheers,
+HCP
+
+hardcorepawn69@gmail.com
+
